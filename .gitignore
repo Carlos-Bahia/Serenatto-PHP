@@ -1,0 +1,31 @@
+# Arquivos e diretórios PHP
+vendor/
+composer.lock
+.env
+
+# Cache do Composer
+composer.phar
+
+# Arquivos de configuração do PhpStorm
+.idea/
+*.iml
+
+# Arquivos de Log
+*.log
+*.cache
+
+# Caches
+cache/
+tmp/
+storage/
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Diretório de Uploads
+uploads/
+
+# Arquivos de Deploy ou Ferramentas de Build
+deploy/
+build/

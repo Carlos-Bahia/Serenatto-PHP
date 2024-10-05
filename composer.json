@@ -1,0 +1,30 @@
+{
+  "name": "carlos-bahia/serenatto",
+  "description": "Projeto de desenvolvimento de aplicação Serenatto cafeteria.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "type": "project",
+  "authors": [
+    {
+      "name": "carlos-bahia",
+      "email": "cadu29bahia@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*",
+    "dompdf/dompdf": "^3.0"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.10",
+    "phan/phan": "^5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Serenatto\\" : "src/"
+    }
+  },
+  "scripts": {
+    "cs": "phpcs --standard=PSR12 src/",
+    "phan": "phan --allow-polyfill-parser"
+  }
+}
